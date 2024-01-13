@@ -1,0 +1,13 @@
+CC = /usr/bin/gcc -Wall  -Wno-pointer-sign -Wno-int-to-pointer-cast -Wno-pointer-to-int-cast -Wno-misleading-indentation -Wno-stringop-truncation -Wformat-truncation=0 -Wformat-overflow=0
+EXEEXT = 
+MT_VERSION=mtPaint 3.50.09
+MT_DATE=2021-04-03
+MT_PREFIX="/usr/local"
+MT_DATAROOT="/usr/local/share"
+MT_LANG_DEST="/usr/local/share/locale"
+MT_MAN_DEST="/usr/local/share/man"
+LDFLAG =    -lopenjp2 -lwebp -ltiff -ljpeg -lfreetype -llcms2 -lpng -lz -lm -lgtk-3 -lgdk-3 -lz -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lgthread-2.0 -pthread -lglib-2.0 -lX11 -s 
+CFLAG =  -DHAVE__SFA -DHAVE_MKDTEMP -DU_JP2=2 -DU_WEBP -DU_TIFF -DU_JPEG -DU_FREETYPE -DU_LCMS=2 -DU_THREADS -DU_FPICK_MTPAINT -DU_CPICK_MTPAINT -DMT_VERSION='"mtPaint 3.50.09"'  -I/usr/include/openjpeg-2.5 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sysprof-6 -pthread -I/usr/include/gtk-3.0 -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/atk-1.0 -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/cloudproviders -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/fribidi -I/usr/include/pixman-1 -I/usr/include/libpng16 -I/usr/include/gio-unix-2.0 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/sysprof-6 -pthread  -O2  -fcommon
+subdirs = src
+BIN_INSTALL="/usr/local/bin"
+SET_RANDSEED = -frandom-seed=$*

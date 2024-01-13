@@ -580,6 +580,8 @@ void *toolbar_code[] = {
 	TBRBUTTONv(_("Shuffle"), XPM_ICON(shuffle),
 		ACTMOD(ACT_TOOL, TTB_SHUFFLE), tool_id),
 	REFv(icon_buttons[TTB_FLOOD]),
+	TBRBUTTONv(_("zoomies"), XPM_ICON(line),
+		ACTMOD(ACT_TOOL, TTB_CLONE), tool_id),
 	TBRBUTTONxv(_("Flood Fill"), XPM_ICON(flood),
 		ACTMOD(ACT_TOOL, TTB_FLOOD), ACTMOD(DLG_FLOOD, 0), tool_id),
 		SHORTCUT(f, 0),
