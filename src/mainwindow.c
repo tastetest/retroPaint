@@ -3456,6 +3456,8 @@ void change_to_tool(int icon)
 		t = TOOL_FLOOD; break;
 	case TTB_LINE:
 		t = TOOL_LINE; break;
+	case TTB_ZOOM:
+		t = TOOL_SMUDGE; break;
 	case TTB_SMUDGE:
 		t = TOOL_SMUDGE; break;
 	case TTB_CLONE:
