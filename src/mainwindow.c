@@ -788,6 +788,8 @@ static void *keylist_code[] = {
 		SHORTCUT(5, 0), SHORTCUT(KP_5, 0),
 	uMENUITEM(_("600% zoom"), ACTMOD(ACT_ZOOM, 6)),
 		SHORTCUT0,
+	uMENUITEM(_("700% zoom"), ACTMOD(ACT_ZOOM, 7)),
+		SHORTCUT0,
 	uMENUITEM(_("800% zoom"), ACTMOD(ACT_ZOOM, 8)),
 		SHORTCUT(6, 0), SHORTCUT(KP_6, 0),
 	uMENUITEM(_("1000% zoom"), ACTMOD(ACT_ZOOM, 10)),
